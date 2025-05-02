@@ -1,3 +1,4 @@
+<<<<<<< HEAD:obj/project.nuget.cache
 {
   "version": 2,
   "dgSpecHash": "uHXujMd9HjI=",
@@ -5,4 +6,13 @@
   "projectFilePath": "C:\\Users\\Harpe\\Desktop\\NET9\\Iteration-Statements-Exercise\\IterationStatements\\IterationStatements.csproj",
   "expectedPackageFiles": [],
   "logs": []
+=======
+{
+  "version": 2,
+  "dgSpecHash": "/Mz7yCc0ln0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\david\\repos\\Iteration-Statements-Exercise\\IterationStatements\\IterationStatements.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> bf5196f (Save local changes before rebase):IterationStatements/obj/project.nuget.cache
 }
