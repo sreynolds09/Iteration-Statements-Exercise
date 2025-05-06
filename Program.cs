@@ -6,7 +6,14 @@
         // Use various test cases to ensure they work as expected.        
         static void Main(string[] args)
         {
-
+            PrintThousand();
+            PrintEveryThirdNumber();
+            IsEqual(1, 1);
+            IsEven(2);
+            IsPositive(1);
+            CanVote(18);
+            IsInRange(10);
+            DisplayMultiplicationTable(12);
         }
         // LukeWarm Section: Implement the following methods        
         // 1. Write a method that prints all numbers from 1000 down to -1000 to the console.
@@ -20,13 +27,13 @@
         }
         // 2. Write a method that prints every third number from 3 to 999 to the console.
         //    - Method Signature: void PrintEveryThirdNumber()
-        public static void PrintEveryThirdNumber
+        public static void PrintEveryThirdNumber()
         {
             for (int k = 3; k<= 999; k += 3)
             {
             Console.WriteLine(k);
             }
-}
+        }
         // 3. Write a method that accepts two integers as parameters and checks whether they are equal.
         //    - Method Signature: bool AreNumbersEqual(int num1, int num2)
         //    - Returns true if the numbers are equal, false otherwise.
@@ -77,7 +84,7 @@
         return false;
         }
 
-        // Heatin' Up Section:
+        // Heating Up Section:
         // 1. Write a method that checks if an integer (provided by the user) is within the range of -10 to 10.
         //    - Method Signature: bool IsInRange(int number)
         //    - Returns true if the number is within the range, false otherwise.
