@@ -1,12 +1,42 @@
-# IDE
-.idea/
-.vs/
-
-# Build output
+# .NET Core
 bin/
 obj/
-
-# OS
-*.DS_Store
 *.user
+*.userosscache
 *.suo
+*.userprefs
+.vs/
+.vscode/
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio files
+.vs/
+*.ncrunchsolution
+*.ncrunchproject
+*.DotSettings
+*.DotSettings.user
+
+# Rider
+.idea/
+*.sln.iml
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
