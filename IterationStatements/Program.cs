@@ -30,7 +30,7 @@
 
         public static void NumbersAreEqual(int numOne, int numTwo)
         {
-            if ((numOne = numTwo) != 0)
+            if (numOne == numTwo)
             {
                 Console.WriteLine($"{numOne} is equal to {numTwo}");
             }
@@ -146,6 +146,7 @@
                 CanVote();
                 CheckTenRange();
                 MultiplyThroughTwelve(10);
+                EvenOrOdd(7);
 
             }
         }
